@@ -1,0 +1,51 @@
+/*general-styling*/
+body {
+    margin: 0;
+}
+p {
+   padding:20px;
+   font-size: 1.2rem;
+}
+h2 {
+    background-color: #145f94;
+    color:#ffffff;
+    margin: 0;
+    padding:20px;   
+}
+/* header-styling*/
+.header h1 {
+    background-color: #145f94;
+    text-align: center;
+    color:#ffffff;
+    margin: 0 auto;
+    padding:20px;  
+}
+
+/*container-styling*/
+.container {
+    width:80%;
+    height:100%;
+    margin: 40px auto;
+}
+/*channel left-float styling*/
+.channel-left {
+    float:left;
+    width:70%;
+}
+.clearfix {
+    clear: right;
+}
+/*channel left-right styling*/
+.channel-right {
+   float:right;
+   width:28%;
+}
+/*channel styling*/
+.channels {
+    
+    border: 1px solid #7aa3c0;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-height: 450px;
+    overflow: auto;   
+}
